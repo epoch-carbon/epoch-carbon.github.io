@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Products</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.8;
+            height: 100%;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .logo {
+            width: 200px;
+            margin: 2rem 0;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin: 1rem 0;
+            font-weight: 300;
+        }
+        
+        .navigation {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .navigation a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #000000;
+            letter-spacing: 0.1em;
+            font-weight: 300;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .product-card {
+            border: 1px solid #eee;
+            padding: 1.5rem;
+            border-radius: 4px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            letter-spacing: 0.05em;
+        }
+        
+        .coming-soon {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin: 3rem 0;
+        }
+        
+        .cta-section {
+            text-align: center;
+            margin: 4rem 0;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/"><img src="/logo.svg" alt="Epoch Carbon Logo" class="logo"></a>
+            <div class="tagline">Advanced Carbon Products</div>
+            
+            <nav class="navigation">
+                <a href="/">Home</a>
+                <a href="/products/">Products</a>
+                <a href="/equipment/">Equipment</a>
+                <a href="mailto:info@epoch.earth">Contact</a>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>Carbon Engineering Solutions</h1>
+            <p>Epoch Carbon specializes in developing advanced carbon materials for various industries and applications.</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">Carbon Fiber Placeholder</div>
+                    <h2>Advanced Carbon Fibers</h2>
+                    <p>High-performance carbon fibers for aerospace, automotive, and industrial applications.</p>
+                    <p><strong>Coming Soon</strong></p>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">Carbon Composite Placeholder</div>
+                    <h2>Carbon Composites</h2>
+                    <p>Lightweight, durable carbon composite materials designed for extreme conditions.</p>
+                    <p><strong>Coming Soon</strong></p>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">Carbon Nanotubes Placeholder</div>
+                    <h2>Carbon Nanotube Solutions</h2>
+                    <p>Innovative nanotube technologies for electronics, energy storage, and material enhancement.</p>
+                    <p><strong>Coming Soon</strong></p>
+                </div>
+            </div>
+            
+            <div class="coming-soon">
+                <p>Full product catalog and specifications coming soon.</p>
+                <p>For inquiries about our products, please contact <a href="mailto:products@epoch.earth">products@epoch.earth</a></p>
+            </div>
+            
+            <div class="cta-section">
+                <h2>Custom Carbon Solutions</h2>
+                <p>Need a specialized carbon material for your project? Our team of engineers can design and manufacture custom carbon solutions to meet your specific requirements.</p>
+                <p><a href="mailto:custom@epoch.earth">Contact our engineering team</a></p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
